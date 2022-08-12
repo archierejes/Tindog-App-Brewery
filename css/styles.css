@@ -1,0 +1,182 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,h2,h3,h4 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Container */
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+/* sections */
+
+.coloured-section {
+  background: linear-gradient(to right,#ef8172,#ff4c68);
+  color: #fff;
+}
+.white-section {
+  background: linear-gradient(to right,#FFF2F2, #fff);
+}
+
+/* Headings */
+
+.big-heading {
+  color: #ffffff;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar/Home */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+
+/* Title Section */
+
+  
+#title .container-fluid {
+  padding: 3% 15% 2%;
+  text-align: left;
+}
+
+/* Download Buttons */
+
+.dl-btn {
+  margin: 5% 1rem 5% 0;
+}
+
+/* Dog Pic */
+
+.dog-pic {
+  margin: 0 auto;
+  position: absolute; right: 23%;
+  transform: rotate(25deg);
+  max-width: 21%;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+}
+
+.features-h3 {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+.features-h3:hover, .features-p:hover{
+  text-shadow: 3px 3px 20px black;
+}
+.fa-solid {
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+/* Testemonial Section */
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 1.2rem;
+  width: 12%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press */
+
+#press {
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 10%;
+  margin: 1rem 1.2rem 1.5rem;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Media queries */
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+  .dog-pic {
+    margin-top: 10%;
+    position: static;
+    transform: rotate(0);
+    max-width: 50%;
+  }
+}
+
+/* Call To Action */
+
+.cta-btn {
+  margin: 0 20px;
+}
+
+/* Footer */
+
+.cr-footer {
+  padding: 20px 0 0;
+  margin: 0 auto;
+}
+.footer-icon {
+  color: #000;
+  margin: 20px 10px;
+}
+.h3-footer {
+  color: #000;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 auto 10px;
+  width: 60%;
+}
